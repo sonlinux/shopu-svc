@@ -333,8 +333,8 @@ AUTH_USER_MODEL = "account.User"
 
 LOGIN_URL = "/account/login/"
 
-DEFAULT_COUNTRY = os.environ.get("DEFAULT_COUNTRY", "US")
-DEFAULT_CURRENCY = os.environ.get("DEFAULT_CURRENCY", "USD")
+DEFAULT_COUNTRY = os.environ.get("DEFAULT_COUNTRY", "ZM")
+DEFAULT_CURRENCY = os.environ.get("DEFAULT_CURRENCY", "ZMK ")
 DEFAULT_DECIMAL_PLACES = get_currency_fraction(DEFAULT_CURRENCY)
 DEFAULT_MAX_DIGITS = 12
 AVAILABLE_CURRENCIES = [DEFAULT_CURRENCY]
@@ -394,7 +394,7 @@ bootstrap4 = {
 
 TEST_RUNNER = "tests.runner.PytestTestRunner"
 
-ALLOWED_HOSTS = get_list(os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1"))
+ALLOWED_HOSTS = get_list(os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,0.0.0.0"))
 ALLOWED_GRAPHQL_ORIGINS = os.environ.get("ALLOWED_GRAPHQL_ORIGINS", "*")
 
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
