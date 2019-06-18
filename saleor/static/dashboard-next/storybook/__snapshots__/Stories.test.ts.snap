@@ -78743,7 +78743,7 @@ exports[`Storyshots Views / Site settings / Page default 1`] = `
                   class="MuiInputBase-input-id MuiFilledInput-input-id"
                   name="name"
                   type="text"
-                  value="Saleor e-commerce"
+                  value="Shopu e-commerce"
                 />
               </div>
               <p
@@ -78996,7 +78996,7 @@ exports[`Storyshots Views / Site settings / Page form errors 1`] = `
                   class="MuiInputBase-input-id MuiFilledInput-input-id"
                   name="name"
                   type="text"
-                  value="Saleor e-commerce"
+                  value="Shopu e-commerce"
                 />
               </div>
               <p

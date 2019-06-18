@@ -8,7 +8,7 @@ module.exports = {
     name: 'storefront',
     service: {
       localSchemaFile: 'saleor/graphql/schema.graphql',
-      name: 'saleor'
+      name: 'shopu'
     }
   }
 };

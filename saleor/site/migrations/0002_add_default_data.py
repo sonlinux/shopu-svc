@@ -12,9 +12,9 @@ def create_default_site(apps, schema_editor):
     SiteSettings.objects.get_or_create(
         pk=settings_id,
         defaults={
-            "name": "Saleor e-commerce",
-            "header_text": "Test Saleor - a sample shop!",
-            "domain": "localhost:8000",
+            "name": "Shopu e-commerce",
+            "header_text": "Test Shopu - a sample shop!",
+            "domain": "104.156.250.24:8000",
         },
     )
 

@@ -892,7 +892,7 @@ def create_page():
             {
                 "key": "",
                 "data": {},
-                "text": "Saleor is a rapidly-growing open source e-commerce platform "
+                "text": "Shopu is a rapidly-growing open source e-commerce platform "
                 "that has served high-volume companies from branches like "
                 "publishing and apparel since 2012. Based on Python and "
                 "Django, the latest major update introduces a modular "
@@ -925,7 +925,7 @@ def create_page():
         ],
         "entityMap": {
             "0": {
-                "data": {"href": "https://github.com/mirumee/saleor"},
+                "data": {"href": "https://github.com/devsbranch/shopu"},
                 "type": "LINK",
                 "mutability": "MUTABLE",
             }
